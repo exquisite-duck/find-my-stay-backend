@@ -1,3 +1,3 @@
-# hotelManagementSystem
+# find-my-stay-backend
 
-this is a random project
+
