@@ -29,7 +29,6 @@ console.log(`DataBase Name : ${config.DB_NAME}`);
 console.log(`DataBase User : ${config.DB_USER}`);
 console.log(`DataBase Host and Port : ${config.DB_HOST}: ${config.DB_PORT}`);
 console.log(`DataBase Type : ${config.DB_DIALECT}`);
-console.log(`DataBase Password : ${config.DB_PASSWORD}`);
 
 
 // new sequelizer = new (database, username, password, options)

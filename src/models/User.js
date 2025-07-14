@@ -1,5 +1,5 @@
 const {DataTypes} = require('sequelize');
-const {sequelizer} = require('../config/db.js');
+const {sequelizer} = require('../../config/db.js');
 
 const User = sequelizer.define('User', {
   user_id : {
