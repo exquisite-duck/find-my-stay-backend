@@ -1,9 +1,6 @@
 const express = require('express');
-const {
-    createUserController,
-    getAllUsersController
-}
-= require('../controllers/userController.js');
+const { createUserController }  = require('../controllers/userController/createUserController.js');
+const { getAllUsersController } = require('../controllers/userController/getAllUserController.js');
 const router = express.Router();
 
 router.post('/create', createUserController);
