@@ -1,4 +1,4 @@
-const { getAllUsers } = require('../sequelizeControllers/userSequelizeControllers/userSequelizeController.js');
+const { getAllUsers } = require('../../sequelizeControllers/userSequelizeControllers/userSequelizeController.js');
 
 const getAllUsersController = async (req, res) => {
     try {
@@ -14,10 +14,10 @@ const getAllUsersController = async (req, res) => {
             code: 500,
             message: 'Internal Server Error',
             data: null
-        })
+        });
     }
-}
+};
 
 module.exports = {
     getAllUsersController
-}
+};
